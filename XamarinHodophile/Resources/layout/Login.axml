@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ImageView
+		android:src="@drawable/d"
+	    android:layout_height="210dp"
+		android:layout_width="match_parent"
+		android:layout_gravity="center"
+		android:id="@+id/imageView1" />
+	<TextView
+		android:text="Welcome to Hodophile!"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="30sp"
+		android:textColor="#1ABBA5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/textView2"
+	
+	/>
+	<TextView 
+		android:text="Please Login here"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textSize="20sp"
+		android:textColor="#1ABBA5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/textView1" />
+<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Email ID"
+		android:id="@+id/Uname" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Usertype"
+		android:id="@+id/Usertype" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:hint="Password"
+		android:inputType="textPassword"
+		android:id="@+id/Pwd" />
+	<Button
+		android:text="Login"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#1ABBA5"  
+	    android:layout_marginBottom="10dp"
+	    android:id="@+id/Login" />
+
+</LinearLayout>

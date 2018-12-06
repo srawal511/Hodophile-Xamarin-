@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	 	<ImageView
+		android:src="@drawable/d"
+	    android:layout_height="210dp"
+		android:layout_width="match_parent"
+		android:layout_gravity="center"
+		android:id="@+id/imageView1" />
+	<TextView
+		android:text="PLEASE CHECK IN HERE!"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="20sp"
+		android:textColor="#1ABBA5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/textView2"
+	
+	/>
+	<EditText
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:hint="Usertype"
+        android:id="@+id/Usertype"
+        android:layout_marginTop="10dp" />
+	<EditText
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/Email"
+        android:layout_marginTop="10dp" />
+	
+	<EditText
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:hint="Message"
+        android:id="@+id/Message"
+        android:layout_marginTop="10dp" />
+	
+	
+	<Button
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:id="@+id/Get_Location"
+    android:background="#1ABBA5"  
+	android:layout_marginBottom="10dp"
+	
+	android:text="Set_Location" />
+    
+	<TextView
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:text="Address (when available)"
+        android:id="@+id/address_text"
+        android:layout_marginTop="10dp" />
+	<TextView
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:id="@+id/Status"
+        android:layout_marginTop="10dp" />
+	
+	<Button
+        android:layout_width="fill_parent"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_height="wrap_content"
+        android:id="@+id/Logout"
+		android:background="#1ABBA5"  
+	android:layout_marginBottom="10dp"
+	
+        android:text="Logout" />
+    
+</LinearLayout>

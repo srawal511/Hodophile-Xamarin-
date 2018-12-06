@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main"
+	android:orientation="vertical"
+	
+	>
+	
+	<ImageView
+		android:src="@drawable/d"
+	    android:layout_height="210dp"
+		android:layout_width="match_parent"
+		android:layout_gravity="center"
+		android:id="@+id/imageView1" />
+	<TextView
+		android:text="Welcome to Hodophile!"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:textSize="30sp"
+		android:textColor="#1ABBA5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/textView2" />
+	<TextView 
+		android:text="Please Register here"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textSize="20sp"
+		android:textColor="#1ABBA5"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/textView1" />
+
+			<EditText
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/FullName"
+			android:hint="Full Name"/>
+<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Company_Name"
+	android:hint="Company Name"/>
+    <EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Usertype"
+	    android:hint="Usertype"/>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Email"
+	    android:hint="Email"/>
+	
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Password"
+		 android:hint="Password"
+		android:inputType="textPassword"
+	   />
+	<Button
+		android:text="REGISTER"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Register" 
+	android:background="#1ABBA5"  
+	android:layout_marginBottom="10dp"/>
+
+
+	<Button
+		android:text="Already have account? Login here"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#1ABBA5"
+	android:id="@+id/Login1" />
+	
+
+	</LinearLayout>
