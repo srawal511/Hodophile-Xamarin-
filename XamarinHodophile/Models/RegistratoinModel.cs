@@ -17,6 +17,7 @@ namespace XamarinHodophile.Models
     {
         [PrimaryKey,AutoIncrement]
 public int Id { get; set; }
+        //Start here.
         public string FullName { get; set; }
 
         public string UserType { get; set; }
